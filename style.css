@@ -334,6 +334,7 @@
     /* column-gap: 0px; */
     /* padding: 50px; */
     
+    
 }
 
 .fitem1{
@@ -381,9 +382,23 @@
     text-align: center;
     margin-top: 8px;
 }
-.btn button{
-    background-color: none; 
-    padding: 5px 20px;
+
+button {
+    background-color: #008cba; /* Blue */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f5f; /* Darker blue on hover */
 }
 .men{
     font-size: 25px; text-align: center;
@@ -595,15 +610,15 @@
 .grid2{
     display: grid;
     /* border: 2px solid red; */
-    grid-template-columns: 35vw  35vw;
+    grid-template-columns: 45vw  45vw;
     grid-template-areas: ' ff2 ff3 '
     'ff1 ff5 '
    
     'ff6 ff7 ';
-    grid-template-rows: 30vw 40vw 30vw;
+    grid-template-rows: 50vw 40vw 50vw;
     justify-content: center;
-    row-gap: 40px;
-    column-gap: 80px;
+    row-gap: 20px;
+    column-gap: 50px;
     padding: 50px;
     
 }
@@ -732,4 +747,40 @@
         /* padding: 50px; */
         
     }
+}
+.head2, .head3, .cright {
+    background-color: #333; /* Dark grey */
+    color: #fff; /* White text color */
+    padding: 10px;
+}
+.grid1 .item1, .grid1 .item2, .grid1 .item3, .grid1 .item4, .grid1 .item5,
+.grid2 .fitem1, .grid2 .fitem2, .grid2 .fitem3, .grid2 .fitem4, .grid2 .fitem5, .grid2 .fitem6, .grid2 .fitem7, .grid2 .fitem8 {
+    background-color: #fff; /* White */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.grid1 .item3 .inner{
+    overflow-y: scroll;
+}
+.cont1 {
+    background-color: #ffebcd; /* Blanched Almond */
+    /* padding-top: 20px; */
+   
+}
+
+.cont2 {
+    background-color: #f0fff0; /* Honeydew */
+    
+}
+
+.cont3 {
+    background-color: #e6e6fa; /* Lavender */
+ 
+}
+
+.cont4 {
+    background-color: #fafad2; /* Light Goldenrod Yellow */
+ 
 }
