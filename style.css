@@ -40,7 +40,7 @@
 .lux{
     position: absolute;
     top:40vh;
-    left:20vw;
+    left:15vw;
 }
 .cont1 .img2 .imgg{
     background-image: url('./header-img.jpg');
@@ -475,7 +475,7 @@ button:hover {
 .lux{
     position: absolute;
     top:20vh;
-    left:30vw;
+    left:20vw;
 }
 .lu{
     font-size: 7vw;
@@ -630,6 +630,25 @@ button:hover {
    
     display: none;
 }
+}
+@media screen and (min-width:500px) and (max-width:899px) {
+    .lux{
+        position: absolute;
+        top:20vh;
+        left:15vw;
+    }
+    .lu{
+        font-size: 7vw;
+        color: gold;
+        filter: brightness(80%);
+        
+        
+    }
+    .gold{
+        font-size: 7vw;
+        color: white;
+    }
+
 }
 @media screen and (min-width:900px) and (max-width:1500px) {
     *{
